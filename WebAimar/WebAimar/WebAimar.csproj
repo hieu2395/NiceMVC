@@ -161,6 +161,7 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\UserController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -173,16 +174,58 @@
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\flexslider.css" />
+    <Content Include="Content\form.css" />
+    <Content Include="Content\jquery-ui.css" />
+    <Content Include="Content\style.css" />
     <Content Include="favicon.ico" />
+    <Content Include="fonts\Archivo_Narrow\OFL.txt" />
+    <Content Include="fonts\Didact_Gothic\OFL.txt" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="fonts\Pathway_Gothic_One\OFL.txt" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="images\b-arrow.png" />
+    <Content Include="images\do.png" />
+    <Content Include="images\f-l.jpg" />
+    <Content Include="images\f-l.png" />
+    <Content Include="images\f-r.jpg" />
+    <Content Include="images\f-r.png" />
+    <Content Include="images\grid10.jpg" />
+    <Content Include="images\grid11.jpg" />
+    <Content Include="images\grid12.jpg" />
+    <Content Include="images\grid13.jpg" />
+    <Content Include="images\grid14.jpg" />
+    <Content Include="images\grid3.jpg" />
+    <Content Include="images\grid4.jpg" />
+    <Content Include="images\grid5.jpg" />
+    <Content Include="images\grid6.jpg" />
+    <Content Include="images\grid7.jpg" />
+    <Content Include="images\grid8.jpg" />
+    <Content Include="images\grid9.jpg" />
+    <Content Include="images\menu1.jpg" />
+    <Content Include="images\menu2.jpg" />
+    <Content Include="images\menu3.jpg" />
+    <Content Include="images\shoe1.jpg" />
+    <Content Include="images\shoe2.jpg" />
+    <Content Include="images\shoe3.jpg" />
+    <Content Include="images\show.jpg" />
+    <Content Include="images\show1.jpg" />
+    <Content Include="images\show2.jpg" />
+    <Content Include="images\show3.jpg" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="fonts\Archivo_Narrow\ArchivoNarrow-Regular.ttf" />
+    <Content Include="fonts\Didact_Gothic\DidactGothic.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="fonts\Pathway_Gothic_One\PathwayGothicOne-Regular.ttf" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="Scripts\imagezoom.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
     <None Include="Scripts\jquery.validate-vsdoc.js" />
+    <Content Include="Scripts\jquery-2.1.4.min.js" />
+    <Content Include="Scripts\jquery.flexslider.js" />
     <Content Include="Scripts\jquery.validate.js" />
     <Content Include="Scripts\jquery.validate.min.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
@@ -190,6 +233,7 @@
     <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
+    <Content Include="Scripts\simpleCart.min.js" />
     <Content Include="Scripts\_references.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
@@ -226,6 +270,8 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
+    <Content Include="Views\Shared\_LayoutUser.cshtml" />
+    <Content Include="Views\User\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
